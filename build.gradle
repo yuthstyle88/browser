@@ -1,19 +1,36 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
-    }
+  repositories {
+    google()
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.5.1'
+    classpath 'com.novoda:bintray-release:0.9'
+  }
 }
 
-allprojects {
-    repositories {
-        maven { url 'https://maven.google.com' }
-        jcenter()
-        mavenCentral()
-        google()
-    }
+ext {
+    bintrayUserOrg = 'adblockplus'
+    bintrayGroupId = 'org.adblockplus'
+    bintrayLicences = ['GPL-3.0']
+    bintrayWebsite = 'https://github.com/adblockplus/libadblockplus-android'
+    bintrayIssueTracker = 'http://issues.adblockplus.org/'
+    bintrayRepository = 'https://github.com/adblockplus/libadblockplus-android.git'
+}
+
+def gradleBuildDir = System.getenv('GRADLE_BUILD_DIR')
+if (gradleBuildDir != null) {
+  println "[Configuration] Building project in ${gradleBuildDir}"
+  allprojects {
+    buildDir = "${gradleBuildDir}/${project.name}"
+  }
+}
+
+subprojects {
+  repositories {
+    google()
+    jcenter()
+  }
+  task listAllDependencies(type: DependencyReportTask) {}
 }

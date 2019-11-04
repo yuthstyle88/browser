@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+  compileSdkVersion 29
+  buildToolsVersion "28.0.3"
+
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 29
+    missingDimensionStrategy 'abi', 'abi_all', 'abi_arm', 'abi_arm64', 'abi_x86'
+  }
+}
+
+dependencies {
+  api project(':adblock-android')
+  testImplementation 'junit:junit:4.12'
+}
+
+publish {
+  userOrg = rootProject.ext.bintrayUserOrg
+  groupId = rootProject.ext.bintrayGroupId
+  artifactId = 'adblock-android-webview'
+  publishVersion = '3.8.8'
+  licences = rootProject.ext.bintrayLicences
+  desc = 'An Android library that provides a WebView component with Adblock Plus integrated.'
+  website = rootProject.ext.bintrayWebsite
+  issueTracker = rootProject.ext.bintrayIssueTracker
+  repository = rootProject.ext.bintrayRepository
+}

@@ -1,0 +1,62 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android",
+      "sdkFolder": "/Users/yongyutjantaboot/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates",
+      "gradleModulePathName": ":adblock-android",
+      "moduleRootFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android",
+      "makeFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/.cxx",
+      "cxxFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx",
+      "ndkFolder": "/Users/yongyutjantaboot/android-ndk-r16b",
+      "ndkVersion": "16.1.4479499",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "abi_allRelease",
+    "soFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/lib",
+    "objFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj/local",
+    "jsonFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease",
+    "gradleBuildOutputFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/cxx/abi_allRelease",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a",
+  "jsonFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/cxx/abi_allRelease/armeabi-v7a",
+  "objFolder": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/.cxx/ndkBuild/abi_allRelease/armeabi-v7a/compile_commands.json"
+}

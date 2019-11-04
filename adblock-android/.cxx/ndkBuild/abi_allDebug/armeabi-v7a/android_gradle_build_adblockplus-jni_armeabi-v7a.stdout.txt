@@ -1,0 +1,9 @@
+[Configuration] Pass LIBABP_INCLUDE_DIR to set libadblockplus headers directory, using default value.
+[Configuration] Using libadblockplus headers directory /Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/../libadblockplus/include
+[Configuration] Pass LIBABP_LIB_DIR to set static libadblockplus library directory, using default value.
+[Configuration] Using static libadblockplus library /Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/../libadblockplus/build/local/armeabi-v7a/libadblockplus.a
+[Configuration] Pass V8_INCLUDE_DIR to set V8 headers directory, using default value.
+[Configuration] Using V8 headers directory /Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/../libadblockplus/third_party/prebuilt-v8/include
+[Configuration] Pass STATIC_V8_LIB_DIR to set static V8 libraries directory, using default value.
+[Configuration] Using static v8 library /Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/../libadblockplus/third_party/prebuilt-v8/android-arm-release/libv8_monolith.a
+make: Nothing to be done for `adblockplus-jni'.

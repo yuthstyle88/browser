@@ -1,1 +1,4 @@
-include ':app'
+include ':adblock-android', ':foss-browser'
+include ':adblock-android-webview'
+include ':adblock-android-settings'
+include ':adblock-android-webviewapp'

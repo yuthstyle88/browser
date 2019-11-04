@@ -1,0 +1,18 @@
+Executable : /Users/yongyutjantaboot/android-ndk-r16b/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=0
+APP_PLATFORM=android-21
+NDK_OUT=/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_arm64Release/obj
+NDK_LIBS_OUT=/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_arm64Release/lib
+APP_ABI=arm64-v8a
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

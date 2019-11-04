@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="org.adblockplus.libadblockplus.android.webviewapp">
+
+    <!--
+        Android permissions are collected from dependent modules
+        and merged to final AndroidManifest.xml automatically.
+    -->
+
+    <application
+        android:icon="@drawable/icon"
+        android:name=".Application"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- main -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- settings -->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_name"/>
+    </application>
+
+</manifest>

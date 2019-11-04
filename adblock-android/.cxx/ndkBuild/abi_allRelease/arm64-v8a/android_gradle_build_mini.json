@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk",
+    "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/yongyutjantaboot/android-ndk-r16b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj NDK_LIBS_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/yongyutjantaboot/android-ndk-r16b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj NDK_LIBS_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "adblockplus-jni-abi_allRelease-arm64-v8a": {
+      "artifactName": "adblockplus-jni",
+      "buildCommand": "/Users/yongyutjantaboot/android-ndk-r16b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj NDK_LIBS_OUT\u003d/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/lib /Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj/local/arm64-v8a/libadblockplus-jni.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/yongyutjantaboot/IdeaProjects/libadblockplus-android/adblock-android/build/intermediates/ndkBuild/abi_allRelease/obj/local/arm64-v8a/libadblockplus-jni.so"
+    }
+  }
+}
